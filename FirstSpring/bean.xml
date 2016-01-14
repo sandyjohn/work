@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<bean id="acc" class="com.practice.spring.Account">
+<property name="name" value="Sandeep">
+</property>
+<property name="accNumber" value="232323">
+</property>
+</bean>
+<bean id="tran" class="com.practice.spring.Transact">
+<property name="accClasSet" ref="acc"/>
+</bean>
+</beans>
