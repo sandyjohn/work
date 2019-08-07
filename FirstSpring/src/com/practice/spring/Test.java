@@ -11,7 +11,7 @@ public class Test {
 		
 	BeanFactory fac=new XmlBeanFactory(new FileSystemResource("bean.xml"));
 	//Account a=new Account();
-	//a.withDraw();
+	//a.withDraw();;
 	Account a=(Account)fac.getBean("acc");
 	a.withDraw();
 	
