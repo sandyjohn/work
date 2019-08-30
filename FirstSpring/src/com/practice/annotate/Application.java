@@ -20,6 +20,7 @@ public class Application {
     }
 	
 	// adding first commit
+	// adding second commit
 
 	// adding comments for methods !!!
   public static void main(String[] args) {
