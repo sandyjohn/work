@@ -2,7 +2,7 @@ package com.practice.spring;
 
 public class Account {
 	
-	// added comments
+	// added comments in master
 	private String name;
 	private int accNumber;
 	
