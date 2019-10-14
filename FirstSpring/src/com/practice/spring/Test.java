@@ -14,7 +14,7 @@ public class Test {
 	//a.withDraw();;
 	// adding in master
 	// added in branch
-	// added in branch again
+	// removed
 	Account a=(Account)fac.getBean("acc");
 	a.withDraw();
 	
