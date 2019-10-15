@@ -13,6 +13,7 @@ public class Test {
 	//Account a=new Account();
 	//a.withDraw();;
 	// adding in master
+	// adding in master twice
 	Account a=(Account)fac.getBean("acc");
 	a.withDraw();
 	
