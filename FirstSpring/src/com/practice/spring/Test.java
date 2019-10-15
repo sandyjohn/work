@@ -14,6 +14,7 @@ public class Test {
 	//a.withDraw();;
 	// adding in master
 	// adding in master twice
+	// adding in Tested by master
 	Account a=(Account)fac.getBean("acc");
 	a.withDraw();
 	
