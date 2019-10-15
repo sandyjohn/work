@@ -3,7 +3,7 @@ package com.practice.spring;
 public class Account {
 	
 	// added comments in master
-	// test in master
+	// tested in master
 	private String name;
 	private int accNumber;
 	
